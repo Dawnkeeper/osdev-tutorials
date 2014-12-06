@@ -77,7 +77,7 @@ if [ "$SKIPGCC" == "0" ]; then
 	error_exit
 	cd gcc-$GCCVERSION
 	error_exit
-	#./contrib/download_prerequisites
+	./contrib/download_prerequisites
 	error_exit "gcc download_prerequisites"
     cd $SOURCELOCATION
 	rm -r build-gcc
